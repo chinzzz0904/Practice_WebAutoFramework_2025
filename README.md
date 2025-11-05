@@ -61,23 +61,36 @@ selenium-java-pom/
 
 ---
 
-## 💻 Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/rakshit-o/selenium-java-pom.git
-```
+Step 1: Initialize Git in your project
+Description: Go to your project folder in the terminal or command prompt.
+Command:cd /path/to/your/project
+        git init
 
-### 2️⃣ Install Dependencies
+Step 2: Add your files
+Description: Add all your project files to Git staging.
+Command: git add .
+
+Step 3: Commit your files
+Description  Create the first commit.
+Command:git commit -m "Initial commit"
+
+Step 4: Create a repository on GitHub
+Description:Go to your Git hosting service.
+            Click New Repository.
+            Give it a name (like MyJavaProject).
+            Don’t initialize with README, .gitignore, or license (since you already have your project locally).
+            After creating it, you’ll get a URL like:
+Command: https://github.com/yourusername/MyJavaProject.git
+
+### Install Dependencies
 Ensure Maven and JDK (>=11) are installed.
-```bash
-mvn clean install
-```
+
+Command: mvn clean install
 
 ### 3️⃣ Run Tests
-```bash
-mvn test
-```
+Command: mvn test
 or run via TestNG suite file:
 ```bash
 testng src/test/resources/testng.xml
@@ -104,11 +117,10 @@ Reports are generated under:
 ---
 
 ## 🧑‍💻 Author
-**Rakshit O**  
-Quality Engineer | Automation Tester  
-📧 rakshit.o@example.com  
-🌐 [LinkedIn Profile or Portfolio Link]
-
+Rakshit Ogra  
+Senior Quality Assurance Engineer/SDET  
+📧 ro3184@gmail.com  
+🌐 (https://www.linkedin.com/in/rakshit-ogra/)
 ---
 
 ## 🧩 Future Enhancements
